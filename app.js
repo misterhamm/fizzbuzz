@@ -17,7 +17,7 @@ $(document).ready(function(){
         }
         else (fizzBuzz.push(fillArray));
 
-        $('.printFB').append(fizzBuzz[fizzIndex]);
+        $('.printFB').append('<li>'+fizzBuzz[fizzIndex]+'</li>');
         fillArray++;
         fizzIndex++;
     };
